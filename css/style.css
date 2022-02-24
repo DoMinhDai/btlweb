@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    width: 1266px;
+    height: 100vh;
+}
+
+img {
+    height: 60px;
+    width: auto;
+    margin: 10px 13px 10px 45px;
+}
+
+/* list-style-type: none - Mất dấu chấm */
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+}
+
+.menu {
+    margin-left: 600px;
+    display: flex;
+    
+}
+
+.welcome {
+    background: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    color: #fff;
+    width: 1266px;
+    height: 170px;
+}
+
+.container {
+    margin-left: 45px;
+}
+
+.welcome__title {
+    font-size: 25px;
+    line-height: 2.25rem;
+    margin-bottom: 0.625rem;
+    padding-top: 50px;
+}
+
+.welcome__desc {
+    font-size: 20px;
+}
+
+.row img {
+    width: 65px;
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.row .media {
+    margin-left: 45px;
+}
+
+h3 {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section .row .block {
+    display: block;
+    float: left;
+}
+
+div {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
