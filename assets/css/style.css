@@ -1,13 +1,26 @@
 
+:root{
+    --primary-cl:#f68a39;
+}
 * {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-body {
-    width: 1266px;
-    height: 100vh;
+h3 {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 img {
@@ -15,30 +28,59 @@ img {
     width: auto;
     margin: 10px 13px 10px 45px;
 }
-
+.layout{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
 /* list-style-type: none - Mất dấu chấm */
+ 
 .menu a {
     text-decoration: none;
     font-size: 20px;
     color: black;
     font-weight: 400;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+    margin: 2px 4px;
+    transition: all 0.3s ease-in-out 0s;
+    display: flex;
 }
-
+.menu a:hover{
+    color: var(--primary-cl);
+}
 .menu {
-    margin-left: 600px;
     display: flex;
     
 }
+.menu > li{
+    display: block;
+}
+.menu a i {
+    line-height: 2.4;
+    font-weight: 400;
+    display: flex;
+    padding: 0 4px;
+    font-size: 14px;
+}
 
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px;
+
+}
 .welcome {
     background: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
     color: #fff;
-    width: 1266px;
+    width: 100%;
     height: 170px;
+    text-align: center;
 }
-
+.menu a span{
+    line-height: 1.6;
+}
 .container {
     margin-left: 45px;
 }
@@ -65,20 +107,6 @@ img {
     margin-left: 45px;
 }
 
-h3 {
-    display: block;
-    font-size: 19px;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-p {
-    font-size: 18px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
 .section .row .block {
     display: block;
