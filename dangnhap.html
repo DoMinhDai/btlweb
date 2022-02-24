@@ -5,21 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Đăng nhập </title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/boxicons-2.1.1/css/boxicons.min.css">
 </head>
 <body>
-    <div id="layout" >
+    <div class="app" >
         <div class="header-wrap">
-            <img src="img/logochu.png" alt="ảnh lỗi">
+            <img src="/assets/img/logochu.png" alt="ảnh lỗi">
             <ul class="menu">
                 <li>
-                    <a href="#"> Host </a>
+                    <a href="#"> 
+                        <span>
+                            Host 
+                        </span>
+                    </a>
                 </li>
                 <li>
-                    <a href="#"> Đăng nhập </a>
+                    <a href="#"> 
+                        <span>
+                            Đăng nhập 
+                        </span>
+                        <i class='bx bxs-down-arrow' ></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#"> Đăng kí </a> 
+                    <a href="#"> 
+                        <span>
+                            Đăng kí 
+                        </span>
+                        <i class='bx bxs-down-arrow' ></i>
+                    </a> 
                 </li>     
             </ul> 
         </div>
@@ -29,37 +48,47 @@
                     <p class="welcome__desc"> Nhanh chóng, tiện lợi và an toàn. Đăng ký liền tay, rinh ngay quyền lợi.</p>    
             </div>
         </div>
-        <div class="section">
+        <div class="section grid wide">
             <div class="row">
-                <div class="block">
-                    <img src="/img/coins@2x.png" width="65" height="70"> 
-                    <div class="media">
-                        <h3 class="media__title">Tích điểm nhanh chóng</h3> 
-                        <p class="media__content m--0">Tích điểm đối với mỗi lượt đặt chỗ thành công. Quy đổi thành Lux Credit để du lịch nhiều hơn nữa.</p>
-                    </div>
-                </div> 
-                <div class="block">
-                    <img src="/img/top-sales@2x.png" width="55" height="70"> 
-                    <div class="media">
-                        <h3 class="media__title">Tiện ích thông minh</h3> 
-                        <p class="media__content m--0">Check-in và kiểm tra hóa đơn thanh toán kể cả khi không có kết nối mạng. Hoàn tiền nhanh gọn. Đổi lịch dễ dàng.</p>
-                    </div>
-                </div> 
-                <div class="block">
-                    <img src="/img/wallet@2x.png" width="60" height="70"> 
-                    <div class="media">
-                        <h3 class="media__title">Thanh toán đơn giản</h3> 
-                        <p class="media__content m--0">Phương thức thanh toán tiện lợi, an toàn. Tích hợp chức năng lưu thẻ để đặt phòng lần sau.</p>
-                    </div>
-                </div> 
-                <div class="block">
-                    <img src="/img/backpack@2x.png" width="55" height="70"> 
-                    <div class="media">
-                        <h3 class="media__title">Ưu đãi mỗi ngày</h3> 
-                        <p class="media__content m--0">Nhận thông báo ưu đãi từ Luxstay khi có kế hoạch du lịch để lựa chọn và đặt ngay cho mình một chỗ ở phù hợp, tiện nghi với giá tốt nhất.</p>
-                    </div>
-                </div>   
-            </div>  
+             <div class="l-8">
+                <div class="row">
+                    <div class="l-6">
+                        <img src="/assets/img/coins@2x.png" width="65" height="70"> 
+                        <div class="media">
+                            <h3 class="media__title">Tích điểm nhanh chóng</h3> 
+                            <p class="media__content m--0">Tích điểm đối với mỗi lượt đặt chỗ thành công. Quy đổi thành Lux Credit để du lịch nhiều hơn nữa.</p>
+                        </div>
+                    </div> 
+                    <div class="l-6">
+                        <img src="/assets/img/top-sales@2x.png" width="55" height="70"> 
+                        <div class="media">
+                            <h3 class="media__title">Tiện ích thông minh</h3> 
+                            <p class="media__content m--0">Check-in và kiểm tra hóa đơn thanh toán kể cả khi không có kết nối mạng. Hoàn tiền nhanh gọn. Đổi lịch dễ dàng.</p>
+                        </div>
+                    </div> 
+                    <div class="l-6">
+                        <img src="/assets/img/wallet@2x.png" width="60" height="70"> 
+                        <div class="media">
+                            <h3 class="media__title">Thanh toán đơn giản</h3> 
+                            <p class="media__content m--0">Phương thức thanh toán tiện lợi, an toàn. Tích hợp chức năng lưu thẻ để đặt phòng lần sau.</p>
+                        </div>
+                    </div> 
+                    <div class="l-6">
+                        <img src="/assets/img/backpack@2x.png" width="55" height="70"> 
+                        <div class="media">
+                            <h3 class="media__title">Ưu đãi mỗi ngày</h3> 
+                            <p class="media__content m--0">Nhận thông báo ưu đãi từ Luxstay khi có kế hoạch du lịch để lựa chọn và đặt ngay cho mình một chỗ ở phù hợp, tiện nghi với giá tốt nhất.</p>
+                        </div>
+                    </div>   
+                </div>  
+             </div>   
+            <div class="l-4">
+                <form action="#">
+                    
+                </form>
+            </div>
+            </div>
+ 
             <div class="account">
 
             </div>
